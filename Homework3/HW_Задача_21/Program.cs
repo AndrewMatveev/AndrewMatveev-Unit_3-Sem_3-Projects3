@@ -27,8 +27,6 @@ System.Console.Write("Последовательно введите коорда
 double[] FirstDot = Console.ReadLine().Split(",").Select(double.Parse).ToArray();
 
 System.Console.Write("Последовательно введите коорданаты (X,Y,Z) второй точки через запятую: ");
-// double[] SecondDot = Console.ReadLine().Split(",").Select(double.Parse).ToArray();
-
 double[] SecondDot = Console.ReadLine().Split(",").Select(double.Parse).ToArray();
 
 System.Console.WriteLine("Расстояние между двумя точками в пространстве: " + DotsDistance(FirstDot, SecondDot));
